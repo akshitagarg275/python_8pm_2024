@@ -78,3 +78,16 @@ stu = {
 # print("type of marks: ", type(marks))
 
 # TODO: range
+# range(start, end, step)
+# start is inclusive, end is exclusive
+# step is optional
+
+# nums = list(range(1,6))
+# print(nums)
+# print(type(nums))
+
+# evens = tuple(range(0, 11 , 2))
+# print(evens)
+
+# mulOf5 = list(range(0, 51, 5))
+# print(mulOf5)
