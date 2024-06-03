@@ -66,10 +66,46 @@ not -> it basically modifies the current state
 
 # Falsy values -> 0, '', False , None
 # print(not 3)
-print(not '')
+# print(not '')
 
 # TODO: bitwise operator
+'''
+We would working on the bits
+& -> bitwise and
+| -> bitwise or
+^ -> bitwise xor (if bits are same output will be 0)
+<< -> left shift
+>> -> right shift
+'''
 
-# TODO: membership operator
+# print(bin(5))
+# print(bin(6))
+# print(5 & 6)
+# print(5 | 6)
+# print(5 ^ 6)
+# print(5 << 1)
 
-# TODO: identity operator
+# print(10 >> 1)
+
+# TODO: membership operator (in)
+nums = [2,3,5,6,7,8]
+# print(2 in nums)
+# print(2 not in nums)
+
+# s = "John"
+# print('j' in s)
+
+# TODO: identity operator (is)
+
+# a = 5
+# print(id(a))
+
+# b = 5
+# print(id(b))
+
+# print(a is b)
+
+# a = 1000
+# b = 1000
+# print(id(a))
+# print(id(b))
