@@ -141,14 +141,21 @@ isCart = True
 isPaid = True
 
 
-if isSignedIn:
-    if isCart:
-        if isPaid:
-            print("You can make the purchase!")
-        else:
-            print("Make the payment")
-    else:
-        print("Add items into the cart")
-else:
-    print("Please sign in")
+# if isSignedIn:
+#     if isCart:
+#         if isPaid:
+#             print("You can make the purchase!")
+#         else:
+#             print("Make the payment")
+#     else:
+#         print("Add items into the cart")
+# else:
+#     print("Please sign in")
+
+# if isSignedIn and isCart and isPaid:
+#     print("You can purchase the item!")
+# else:
+#     print("You cannot make the purchase")
+
+
     
