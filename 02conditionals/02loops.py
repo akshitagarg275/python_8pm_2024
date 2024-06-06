@@ -63,7 +63,31 @@ colors = ("red", "yellow", "orange", "green", "purple")
 #     print(i)
 
 
-full_name = "John Doe"
+# full_name = "John Doe"
 
-for s in full_name:
-    print(s)
+# for s in full_name:
+#     print(s)
+
+
+# TODO: else block in the loop
+'''
+If the loop execution is terminated using break statement
+than the else block will not get executed at all.
+
+else block in the loop will get executed only if the loop is 
+executed completely
+'''
+
+# for i in colors:
+#     if i == "green":
+#         # continue  # else block will get executed
+#         break  # else block will not get executed
+#     print(i)
+# else:
+#     print("for loop executed completely")
+
+
+# TODO: infinite loop
+
+while True:
+    print("Hello")
