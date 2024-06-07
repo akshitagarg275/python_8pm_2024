@@ -25,3 +25,7 @@ else:
     print("sum of digits: ", sum)   
 
 # TODO: WAP to multiply the digits
+
+
+# TODO: WAP to reverse the given number
+# 546 --> 645
