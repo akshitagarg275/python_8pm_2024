@@ -86,9 +86,48 @@ escape sequences:
 # p = r"C:\\imp\new_folder\backup\and"
 # print(p)
 
+# s = "122324as  "
+# s = 'False'
+s ="   "
+
+# print(s.isnumeric())
+# print(s.isalnum())
+# print(s.isidentifier())
+
+# print(s.islower())
+# print(s.isspace())
+
+# TODO: strip : reducing extra white spaces
+p = "      p@ssword    "
+# print(p.lstrip())
+# print(p.rstrip())
+# print(p.strip())
 
 
+# TODO: replace
+s = "we are learning python"
+# print("Before: ",s)
+# s = s.replace('a', '@')
+# s = s.replace('a', '@', 1)
+# print("After: ", s)
+
+# TODO: split
+s = "we are learning python"
+# print(s.split())
+# print(s.split('e'))
+# print(s.split(" ",2))
 
 
+# TODO: join
+fname = "john"
+lname = "doe"
+
+userName = ".".join([fname, lname])
+print(userName)
+
+companyName = "abc.com"
+
+email = "@".join([userName, companyName])
+print(email)
 
 
