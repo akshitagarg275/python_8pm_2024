@@ -40,4 +40,3 @@ b = {4,5,6,7}
 
 print(b.difference(a))
 print(b-a)
-
