@@ -90,7 +90,7 @@ def func3():
     finally:
         return 4
     
-print(func3())
+# print(func3())
 
 
 
