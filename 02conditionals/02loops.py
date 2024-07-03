@@ -78,13 +78,13 @@ else block in the loop will get executed only if the loop is
 executed completely
 '''
 
-# for i in colors:
-#     if i == "green":
-#         # continue  # else block will get executed
-#         break  # else block will not get executed
-#     print(i)
-# else:
-#     print("for loop executed completely")
+for i in colors:
+    if i == "green":
+        # continue  # else block will get executed
+        break  # else block will not get executed
+    print(i)
+else:
+    print("for loop executed completely")
 
 
 # TODO: infinite loop
