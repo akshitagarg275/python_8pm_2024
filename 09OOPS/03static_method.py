@@ -11,5 +11,8 @@ class Employee:
 
 e1 = Employee()
 e2 = Employee()
-e1.greet()
-e2.greet()    
+# e1.greet()
+# e2.greet() 
+
+Employee.greet()   
+
