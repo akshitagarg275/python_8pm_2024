@@ -1,0 +1,10 @@
+{% extends "layout/nav.html" %}
+
+
+{% block content %}
+    <h1>All Chai for you </h1>
+    {% for chai in chais %}
+        <a href="{% url 'chai_detail' chai.id %}"><h3>{{chai.tea_name}}</h3></a>
+    {% endfor %}
+
+{% endblock %}
